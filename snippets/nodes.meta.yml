@@ -189,7 +189,7 @@ proxies:
   sni: hsdg.huasuan666.top
   tls: false
   type: hysteria2
-- name: r♡ya
+- name: All--@V2rayAlpha--7
   password: 571ec94e-613c-430a-93de-397d3d237475
   port: 22155
   server: hsdg.huasuan666.top
@@ -255,7 +255,7 @@ proxies:
   sni: hl.dport.top
   tls: false
   type: hysteria2
-- name: '🇳🇱 - NL - @freeOnlineVPN #1'
+- name: '@v2ray_configs_pool'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: 680210f5-3b5f-4947-9983-e508a15cf169
@@ -265,7 +265,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '🇳🇱 - NL - @freeOnlineVPN #3'
+- name: '@v2ray_configs_pool #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: 680210f5-3b5f-4947-9983-e508a15cf169
@@ -275,7 +275,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '🇩🇪 - DE - @freeOnlineVPN #1'
+- name: '@v2ray_configs_pool #2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: 680210f5-3b5f-4947-9983-e508a15cf169
@@ -285,7 +285,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '🇳🇱@FreakConfig #3'
+- name: '@v2ray_configs_pool #3'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: 680210f5-3b5f-4947-9983-e508a15cf169
@@ -347,7 +347,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '🇸🇪 - SE - @freeOnlineVPN #2'
+- name: '🇸🇪 - SE - @freeOnlineVPN #1'
   obfs: salamander
   obfs-password: U1wBrYQyFm
   password: 80747420-96c4-4a2f-83e6-eea4e46beb09
@@ -375,7 +375,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '🇳🇱 - NL - @freeOnlineVPN #7'
+- name: '🇳🇱 - NL - @freeOnlineVPN #8'
   obfs: salamander
   obfs-password: GdQ4bgvT8RFwuWi2
   password: 8864aa9f-7517-4fd5-aef1-32050eb3095d
@@ -395,7 +395,7 @@ proxies:
   sni: net2025.afsharidempire.ukr♡ya
   tls: false
   type: hysteria2
-- name: 'r♡ya #3'
+- name: All--@V2rayAlpha--8
   obfs: salamander
   obfs-password: GdQ4bgvT8RFwuWi2
   password: 8864aa9f-7517-4fd5-aef1-32050eb3095d
@@ -457,7 +457,7 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: '🇳🇱@FreakConfig #4'
+- name: '@v2ray_configs_pool #4'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -467,7 +467,7 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: 'WI-FI--@IRAN_V2RAY1 #1'
+- name: '@v2ray_configs_pool #5'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -477,7 +477,7 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- name: '🇳🇱@FreakConfig #5'
+- name: '@v2ray_configs_pool #6'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -487,7 +487,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '🇳🇱 - NL - @freeOnlineVPN #9'
+- name: '🇳🇱 - NL - @freeOnlineVPN #12'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -497,7 +497,17 @@ proxies:
   sni: YAPC-1.afshin.irr♡ya
   tls: false
   type: hysteria2
-- name: '@Daily_Configs #4'
+- name: '@v2ray_configs_pool #8'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36300
+  server: 206.71.158.37
+  skip-cert-verify: false
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '@v2ray_configs_pool #9'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -507,7 +517,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '🇳🇱@FreakConfig #6'
+- name: '🇳🇱 - NL - @freeOnlineVPN #16'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -517,7 +527,17 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '@V2rayAlpha--All-3'
+- name: '@v2ray_configs_pool #11'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 35200
+  server: yapc-1.adamhayward.co.uk
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '@v2ray_configs_pool #12'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -527,7 +547,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 'All-@IRAN_V2RAY1 #3'
+- name: '🇳🇱 - NL - @freeOnlineVPN #21'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -537,7 +557,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 'MCI-@V2rayAlpha--3 #2'
+- name: '🇳🇱 - NL - @freeOnlineVPN #25'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -603,7 +623,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 'r♡ya #5'
+- name: 'limo #1'
   password: dongtaiwang.com
   port: 5355
   server: 51.159.111.32
@@ -618,7 +638,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 'r♡ya #6'
+- name: All--@V2rayAlpha--2
   password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
   port: 30000
   server: de2.oomz.ru
@@ -626,7 +646,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '@Daily_Configs #7'
+- name: '@Daily_Configs #6'
   password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
   port: 30000
   server: de3.oomz.ru
