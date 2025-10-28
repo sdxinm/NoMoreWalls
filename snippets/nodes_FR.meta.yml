@@ -11,7 +11,7 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- name: MCI--@V2rayAlpha--7
+- name: All--@V2rayAlpha--1
   password: dongtaiwang.com
   port: 5355
   server: 51.159.111.32
