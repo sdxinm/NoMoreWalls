@@ -11,7 +11,7 @@ proxies:
   sni: apple.com
   type: hysteria
   up: 11 Mbps
-- name: FR_speednode_0011
+- name: FR_speednode_0017
   network: ws
   password: e6f0e8b0-3dc5-4d53-a23a-86c02d5ba098
   port: 443
