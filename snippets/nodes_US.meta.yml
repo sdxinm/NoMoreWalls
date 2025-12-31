@@ -1,4 +1,107 @@
 proxies:
+- name: '#081 US20 CF27'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 162.159.24.131
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: '#088 US25 CF33'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.26.1.110
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2F'
+- name: '#090 US27 CF35'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.26.1.110
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2F%2F'
+- alterId: 0
+  cipher: auto
+  name: '#120 US38'
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: '#126 US40'
+  password: f19c7009-7630-4bb4-b26d-09eec0b1b769
+  port: 36901
+  server: 136.0.41.79
+  skip-cert-verify: true
+  sni: www.python.org
+  type: tuic
+  udp-relay-mode: native
+  uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: '#127 US41'
+  password: f19c7009-7630-4bb4-b26d-09eec0b1b769
+  port: 60000
+  server: 136.0.41.79
+  skip-cert-verify: true
+  sni: www.python.org
+  type: tuic
+  udp-relay-mode: native
+  uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: '#129 US43'
+  password: f19c7009-7630-4bb4-b26d-09eec0b1b769
+  port: 60000
+  server: 23.94.175.162
+  skip-cert-verify: true
+  sni: www.python.org
+  type: tuic
+  udp-relay-mode: native
+  uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: '#133 US44'
+  password: f19c7009-7630-4bb4-b26d-09eec0b1b769
+  port: 60000
+  server: 38.135.24.154
+  skip-cert-verify: true
+  sni: www.python.org
+  type: tuic
+  udp-relay-mode: native
+  uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: '#134 US45'
+  password: f19c7009-7630-4bb4-b26d-09eec0b1b769
+  port: 30000
+  server: 38.135.24.154
+  skip-cert-verify: true
+  sni: www.python.org
+  type: tuic
+  udp-relay-mode: native
+  uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769
 - name: 'All--@IRAN_V2RAY1🇺🇸 #1'
   password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 1743

@@ -1,1 +1,25 @@
-proxies: []
+proxies:
+- name: '#024 GB3 CF5'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 5.144.182.188
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2F'
+- name: '#022 GB2 CF4'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 57.129.137.55
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2F'

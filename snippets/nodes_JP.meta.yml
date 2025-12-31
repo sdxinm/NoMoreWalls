@@ -1,4 +1,39 @@
 proxies:
+- name: '#031 JP3'
+  password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05
+  port: 25010
+  server: 37.202.200.19
+  skip-cert-verify: true
+  sni: 37.202.200.19
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '#114 JP10'
+  network: ws
+  port: '443'
+  server: n1753598451.74qxv.top
+  servername: n1753598451.74qxv.top
+  tls: true
+  type: vmess
+  uuid: 9798678f-5b8c-4ff1-bbdd-b9b5c1539de0
+  ws-opts:
+    headers:
+      Host: n1753598451.74qxv.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '#119 JP12'
+  network: ws
+  port: '443'
+  server: n1753598448.74qxv.top
+  servername: n1753598448.74qxv.top
+  tls: true
+  type: vmess
+  uuid: 3cd6f849-078e-4da9-8080-a2791b51b766
+  ws-opts:
+    headers:
+      Host: n1753598448.74qxv.top
+    path: /
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
