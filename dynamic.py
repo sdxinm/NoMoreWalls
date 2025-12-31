@@ -4,7 +4,7 @@
 # import requests
 # import threading
 from typing import Callable, List, Union, Iterable
-# from fetch import raw2fastly, session, LOCAL
+from fetch import raw2fastly, session, LOCAL
 
 
 # def kkzui():
@@ -72,8 +72,17 @@ from typing import Callable, List, Union, Iterable
 #                 subs.add(sub)
 #     return subs
 
+def fakeyou():
+    res = session.get("https://fakeyou.top")
+    res.raise_for_status()
+    lines = res.text.splitlines()
+    for line in lines:
+        line = line.strip()
+        if line.startswith("https://image.fakeyou.top/"):
+            return line+"#ignore=ss,vless"
+
 AUTOFUNTYPE = Callable[[], Union[str, Iterable[str], None]]
-AUTOURLS: List[AUTOFUNTYPE] = []
+AUTOURLS: List[AUTOFUNTYPE] = [fakeyou]
 AUTOFETCH: List[AUTOFUNTYPE] = []
 
 if __name__ == '__main__':

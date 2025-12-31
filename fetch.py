@@ -81,7 +81,7 @@ def b64decodes_safe(s: str):
     except UnicodeDecodeError: raise
     except binascii.Error: raise
 
-def resolveRelFile(url: str):
+def normpath(url: str):
     if url.startswith('file://'):
         basedir = os.path.dirname(os.path.abspath(__file__))
         return url.replace('/./', '/'+basedir.lstrip('/').replace(os.sep, '/')+'/')
@@ -223,6 +223,19 @@ class Node:
         else:
             return False
 
+    @staticmethod
+    def urlparse(url: str, scheme='', allow_fragments=True):
+        if allow_fragments and '#' in url:
+            segs = url.split('#')
+            fragment = segs[-1]
+            url = '#'.join(segs[:-1])
+        else:
+            fragment = None
+        res = urlparse(url, scheme, allow_fragments=False)
+        if fragment:
+            res = res._replace(fragment=fragment)
+        return res
+
     def load_url(self, url: str):
         try: self.type, dt = url.split("://", 1)
         except ValueError: raise NotANode(url)
@@ -317,7 +330,7 @@ class Node:
                 self.data['protocol-param'] = v
 
     def _load_trojan(self, url: str, dt: str):
-        parsed = urlparse(url)
+        parsed = self.urlparse(url)
         self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname,
                 'port': parsed.port, 'type': 'trojan', 'password': unquote(parsed.username)}
         if not parsed.query: return
@@ -346,7 +359,7 @@ class Node:
                 self.data['ws-opts']['path'] = v
 
     def _load_vless(self, url: str, dt: str):
-        parsed = urlparse(url)
+        parsed = self.urlparse(url)
         self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname,
                 'port': parsed.port, 'type': 'vless', 'uuid': unquote(parsed.username)}
         self.data['tls'] = False
@@ -392,7 +405,7 @@ class Node:
             # TODO: Unused key encryption
 
     def _load_hysteria2(self, url: str, dt: str):
-        parsed = urlparse(url)
+        parsed = self.urlparse(url)
         self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname,
                 'type': 'hysteria2', 'password': unquote(parsed.username)}
         if ':' in parsed.netloc:
@@ -421,22 +434,48 @@ class Node:
                 self.data[k] = v
             elif k == 'fp': self.data['fingerprint'] = v
 
+    def _load_tuic(self, url: str, dt: str):
+        parsed = self.urlparse(url)
+        self.data = {
+            'name': unquote(parsed.fragment), 'server': parsed.hostname,
+            'type': 'tuic', 'uuid': unquote(parsed.username),
+            'password': unquote(parsed.password), 'port': parsed.port or 136
+        }
+        if not parsed.query: return
+        k = v = ''
+        for kv in parsed.query.split('&'):
+            if '=' in kv:
+                k,v = kv.split('=', 1)
+            else:
+                v += '&' + kv
+            if k == 'allow_insecure':
+                self.data['skip-cert-verify'] = (v != '0')
+            elif k == 'alpn':
+                self.data['alpn'] = unquote(v).split(',')
+            elif k in ('sni', 'udp_relay_mode'):
+                self.data[k.replace('_','-')] = v
+            elif k == 'fp': self.data['fingerprint'] = v
+            elif k == 'congestion_control': self.data['congestion-controller'] = v
+
     def _load__legacy(self, url: str, dt: str):
         parsed = urlparse(url)
         self.data = {
             'name': unquote(parsed.fragment),
-            'type': 'socks5' if self.type == 'socks5' else 'http',
+            'type': 'socks5' if self.type.startswith('socks') else 'http',
             'tls': parsed.scheme == 'https',
             'server': parsed.hostname,
             'port': parsed.port,
             'username': parsed.username,
             'password': parsed.password
         }
-        self.data = {k:v for k,v in self.data.items() if v == None}
+        self.data = {k:v for k,v in self.data.items() if v != None}
+        if self.type.startswith('socks'):
+            self.type = self.data['type']
 
     _load_http = _load__legacy
     _load_https = _load__legacy
     _load_socks5 = _load__legacy
+    _load_socks = _load__legacy
 
     def update(self, node: 'Node'):
         self.data.update(node.data)
@@ -646,6 +685,25 @@ class Node:
         ret = ret.rstrip('&')+'#'+name
         return ret
 
+    def _url_tuic(self, data: DATA_TYPE) -> str:
+        passwd = quote(data['password'])
+        uuid = quote(data['uuid'])
+        name = quote(data['name'])
+        ret = f"tuic://{uuid}:{passwd}@{data['server']}:{data['port']}?"
+        if 'skip-cert-verify' in data:
+            ret += f"allow_insecure={int(data['skip-cert-verify'])}&"
+        if 'alpn' in data:
+            ret += f"alpn={quote(','.join(data['alpn']))}&"
+        if 'fingerprint' in data:
+            ret += f"fp={data['fingerprint']}&"
+        if 'congestion-controller' in data:
+            ret += f"congestion_control={data['congestion-controller']}&"
+        for k in ('sni', 'udp-relay-mode'):
+            if k in data:
+                ret += f"{k.replace('-','_')}={data[k]}&"
+        ret = ret.rstrip('&')+'#'+name
+        return ret
+
     def _url__legacy(self, data: DATA_TYPE) -> str:
         tp = 'https' if self.type == 'http' and data.get('tls') else self.type
         part = ''
@@ -778,7 +836,7 @@ class Source():
                     if 'ignore' in self.cfg:
                         self.cfg['ignore'] = [_ for _ in self.cfg['ignore'].split(',') if _.strip()]
                     self.url = '#'.join(segs[:-1])
-                with session.get(resolveRelFile(self.url), stream=True) as r:
+                with session.get(normpath(self.url), stream=True) as r:
                     if r.status_code != 200:
                         if depth > 0 and isinstance(self.url_source, str):
                             exc = f"'{self.url}' 抓取时 {r.status_code}"
@@ -791,8 +849,10 @@ class Source():
                         return
                     self.content = self._download(r)
         except KeyboardInterrupt: raise
-        except requests.exceptions.RequestException:
+        except requests.exceptions.RequestException as e:
             self.content = -1
+            exc = "在抓取 '"+self.url+"' 时发生网络错误：\n"+str(e)
+            self.exc_queue.append(exc)
         except:
             self.content = -2
             exc = "在抓取 '"+self.url+"' 时发生错误：\n"+traceback.format_exc()
@@ -965,12 +1025,12 @@ def raw2fastly(url: str) -> str:
     if not LOCAL: return url
     url: Union[str, List[str]]
     if url.startswith("https://raw.githubusercontent.com/"):
-        # url = url[34:].split('/')
-        # url[1] += '@'+url[2]
-        # del url[2]
-        # url = "https://fastly.jsdelivr.net/gh/"+('/'.join(url))
-        # return url
-        return "https://ghproxy.cfd/"+url
+        url = url[34:].split('/')
+        url[1] += '@'+url[2]
+        del url[2]
+        url = "https://fastly.jsdelivr.net/gh/"+('/'.join(url))
+        return url
+        # return "https://ghproxy.cfd/"+url
     return url
 
 def merge_adblock(adblock_name: str, rules: Dict[str, str]):
@@ -980,7 +1040,7 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]):
     for url in ABFURLS:
         url = raw2fastly(url)
         try:
-            res = session.get(resolveRelFile(url))
+            res = session.get(normpath(url))
         except requests.exceptions.RequestException as e:
             try:
                 print(f"{url} 下载失败：{e.args[0].reason}")
@@ -1003,7 +1063,7 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]):
     for url in ABFWHITE:
         url = raw2fastly(url)
         try:
-            res = session.get(resolveRelFile(url))
+            res = session.get(normpath(url))
         except requests.exceptions.RequestException as e:
             try:
                 print(f"{url} 下载失败：{e.args[0].reason}")
