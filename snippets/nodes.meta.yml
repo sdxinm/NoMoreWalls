@@ -89,463 +89,848 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '#031 JP3'
-  password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05
-  port: 25010
-  server: 37.202.200.19
+- name: '#001 US1'
+  network: ws
+  password: e57ea079-35ff-46f6-b3d2-7682b6bb4319
+  port: 2087
+  server: bestcdn4.868863.xyz
   skip-cert-verify: true
-  sni: 37.202.200.19
+  sni: 17673588945452.206355.xyz
   type: trojan
-- name: '#011 HK1'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
+  ws-opts:
+    headers:
+      Host: 17673588946977.206355.xyz
+    path: '%2Fvideomuaawe'
+- name: '#002 DE1'
+  network: ws
+  password: e57ea079-35ff-46f6-b3d2-7682b6bb4319
+  port: 2096
+  server: bestcdn1.868863.xyz
   skip-cert-verify: true
-  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%0A%5BBy%20DukeMehdi%5D%20trojan-HK%20'
+  sni: 17673588943109.796813.xyz
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '#017 CN1'
-  network: tcp
-  port: '59003'
-  server: 183.236.51.36
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: '#051 HK21'
+  ws-opts:
+    headers:
+      Host: 17673588945338.796813.xyz
+    path: '%2Fagrbniuh'
+- name: '#003 US2'
+  network: ws
+  password: e57ea079-35ff-46f6-b3d2-7682b6bb4319
+  port: 2087
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: 17673588943776.206355.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17673588945492.206355.xyz
+    path: '%2Fvideomuaawe'
+- name: '#004 US3'
+  network: ws
+  password: e57ea079-35ff-46f6-b3d2-7682b6bb4319
+  port: 2083
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17673588947548.796812.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17673588945007.796812.xyz
+    path: '%2Fagraeabtegrrh'
+- name: '#005 DE2'
+  network: ws
+  password: e57ea079-35ff-46f6-b3d2-7682b6bb4319
+  port: 2087
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17673588943211.796813.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17673588946505.796813.xyz
+    path: '%2Fagrbniuh'
+- name: '#006 US4'
+  network: ws
+  password: e57ea079-35ff-46f6-b3d2-7682b6bb4319
+  port: 2096
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17673588947277.206355.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17673588948277.206355.xyz
+    path: '%2Fvideomuaawe'
+- name: '#075 HK31'
   password: BxceQaOe
   port: 443
   server: 58.152.46.60
   skip-cert-verify: true
   sni: 58.152.46.60
   type: trojan
-- name: '#024 GB3 CF5'
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 5.144.182.188
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2F'
-- name: '#022 GB2 CF4'
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 57.129.137.55
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2F'
-- name: '#053 HK23'
+- name: '#131 HK60'
   password: BxceQaOe
   port: 443
   server: 58.152.46.60
   skip-cert-verify: true
-  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20trojan-HK%20'
+  sni: '%20%5BBy%20EbraSha%5D%20trojan-HK%20'
   type: trojan
-- name: '#044 HK14'
+- name: '#011 JP2 CF2'
+  network: ws
+  password: 5a2c16f9
+  port: 50090
+  server: 203.137.166.120
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#014 HK4'
   password: BxceQaOe
   port: 443
   server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%2078%20'
+  type: trojan
+- name: '#019 US8'
+  port: 443
+  server: 57351a07-t7vwg0-tcc9uq-1rnrp.los.gotochinatown.net
+  tls: false
+  type: socks5
+  username: OTg5YWE0MDYtZWE5Yi0xMWVmLTk3ZGEtZjIzYzkxY2ZiYmM5Ojk4OWFhNDA2LWVhOWItMTFlZi05N2RhLWYyM2M5MWNmYmJjOQ%3D%3D
+- name: '#035 US12'
+  port: 443
+  server: b135e9e8-t7bj40-tg010c-1r7od.los.gotochinatown.net
+  tls: false
+  type: socks5
+  username: NmQ1NjQzNmMtMTUwZC0xMWYwLWIwYzgtZjIzYzkxM2M4ZDJiOjZkNTY0MzZjLTE1MGQtMTFmMC1iMGM4LWYyM2M5MTNjOGQyYg%3D%3D
+- name: 香港3|@ripaojiedian
+  network: tcp
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
+  port: 443
+  server: 58.152.18.147
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.86
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '#057 HK27'
+- name: '#054 HK11'
   password: BxceQaOe
   port: 443
-  server: 58.152.46.60
+  server: 58.152.25.86
+  skip-cert-verify: true
+  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20'
+  type: trojan
+- name: '#055 HK12'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.86
+  skip-cert-verify: true
+  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20'
+  type: trojan
+- name: '#056 HK13'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.86
   skip-cert-verify: true
   sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20trojan-HK%20'
   type: trojan
-- name: '#029 HK9'
+- name: '#057 HK14'
+  password: BxceQaOe
   port: 443
-  server: d28b916c-t7vwg0-tcc9uq-1rnrp.hkt2.cdnhuawei.com
-  tls: false
-  type: socks5
-  username: OTg5YWE0MDYtZWE5Yi0xMWVmLTk3ZGEtZjIzYzkxY2ZiYmM5OjxwYXNzd29yZD4%3D
-- alterId: 0
-  cipher: auto
-  name: '#039 KR4'
+  server: 58.152.25.86
+  skip-cert-verify: true
+  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20trojan-HK%20'
+  type: trojan
+- name: '#059 JP10 CF3'
   network: ws
-  port: '2087'
-  server: lv4.789900.xyz
-  servername: lv4.789900.xyz
-  tls: true
-  type: vmess
-  uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
+  password: 5a2c16f9
+  port: 443
+  server: 103.53.81.139
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
   ws-opts:
     headers:
-      Host: lv4.789900.xyz
-    path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
-- alterId: 0
-  cipher: auto
-  name: '#040 SG1'
-  network: tcp
-  port: '30812'
-  server: v12.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '#041 HK11'
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#060 HK16'
   password: BxceQaOe
   port: 443
   server: 58.152.46.60
   skip-cert-verify: true
-  sni: t.me%25252Fripaojiedian
+  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20'
   type: trojan
-- name: '#042 HK12'
+- name: '#061 HK17'
   password: BxceQaOe
   port: 443
   server: 58.152.46.60
   skip-cert-verify: true
-  sni: t.me%2525252Fripaojiedian
+  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20'
   type: trojan
-- name: '#043 HK13'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  skip-cert-verify: true
-  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B'
-  type: trojan
-- name: '#045 HK15'
+- name: '#062 HK18'
   password: BxceQaOe
   port: 443
   server: 58.152.46.60
   skip-cert-verify: true
   sni: '%2B%2B%2B%2B%2B%2B%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B'
   type: trojan
-- name: '#046 HK16'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  skip-cert-verify: true
-  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B'
-  type: trojan
-- name: '#047 HK17'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  skip-cert-verify: true
-  sni: '%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B'
-  type: trojan
-- name: '#048 HK18'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  skip-cert-verify: true
-  sni: '%20%20%20%20%20%20%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B'
-  type: trojan
-- name: '#049 HK19'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  skip-cert-verify: true
-  sni: '%20%20%20%20%20%20%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B'
-  type: trojan
-- name: '#050 HK20'
+- name: '#130 HK59'
   password: BxceQaOe
   port: 443
   server: 58.152.46.60
   skip-cert-verify: true
   sni: '%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20trojan-HK%20'
   type: trojan
-- name: '#052 HK22'
+- name: '#064 HK20'
   password: BxceQaOe
   port: 443
   server: 58.152.46.60
   skip-cert-verify: true
-  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD'
+  sni: '%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20'
   type: trojan
-- name: '#054 HK24'
+- name: '#065 HK21'
   password: BxceQaOe
   port: 443
   server: 58.152.46.60
   skip-cert-verify: true
-  sni: '%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B'
+  sni: '%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20'
   type: trojan
-- name: '#055 HK25'
+- name: '#066 HK22'
   password: BxceQaOe
   port: 443
   server: 58.152.46.60
   skip-cert-verify: true
-  sni: '%20%5BBy%20DukeMehdi%5D%20trojan-HK%20'
+  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20'
   type: trojan
-- name: '#056 HK26'
+- name: '#067 HK23'
   password: BxceQaOe
   port: 443
   server: 58.152.46.60
   skip-cert-verify: true
   sni: '%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B'
   type: trojan
-- name: '#058 HK28'
+- name: '#129 HK58'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '#070 HK26'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%20%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B'
+  type: trojan
+- name: '#071 HK27'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B'
+  type: trojan
+- name: '#072 HK28'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%20%20%20%20%20%20%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B'
+  type: trojan
+- name: '#073 HK29'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B'
+  type: trojan
+- name: '#074 HK30'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%20%20%20%20%20%20'
+  type: trojan
+- name: '#132 HK61'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20trojan-HK%20'
+  type: trojan
+- name: '#077 HK33'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%20'
+  type: trojan
+- name: '#078 HK34'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20'
+  type: trojan
+- name: '#128 HK57'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20trojan-HK%20'
+  type: trojan
+- name: '#126 HK55'
   password: BxceQaOe
   port: 443
   server: 58.152.46.60
   skip-cert-verify: true
   sni: '%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20trojan-HK%20'
   type: trojan
-- name: '#081 US20 CF27'
-  network: ws
-  password: 5a2c16f9
+- name: '#081 HK37'
+  password: BxceQaOe
   port: 443
-  server: 162.159.24.131
+  server: 58.152.46.60
   skip-cert-verify: true
-  sni: snippets.kkii.eu.org
+  sni: '%20%20%20%20%20%20%20%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%20'
   type: trojan
-  ws-opts:
-    path: '%2F'
-- name: '#085 KR5'
-  port: 1090
-  server: 121.169.46.116
-  tls: false
-  type: socks5
-  username: Og%3D%3D
-- name: '#088 US25 CF33'
+- name: '#133 HK62'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%20%5BBy%20DukeMehdi%5D%20trojan-HK%20'
+  type: trojan
+- name: '#083 HK39'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20'
+  type: trojan
+- name: '#084 HK40'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%20%20%20%20%20%20%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B'
+  type: trojan
+- name: '#085 HK41'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%20%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B'
+  type: trojan
+- name: '#086 HK42'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: t.me%25252Fripaojiedian
+  type: trojan
+- name: '#087 HK43'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD'
+  type: trojan
+- name: '#088 DE4 CF4'
   network: ws
   password: 5a2c16f9
-  port: 443
-  server: 104.26.1.110
+  port: 8443
+  server: 162.55.187.121
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   type: trojan
   ws-opts:
     headers:
       Host: snippets.kkii.eu.org
-    path: '%2F'
-- name: '#090 US27 CF35'
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#089 GB2 CF5'
   network: ws
   password: 5a2c16f9
-  port: 443
-  server: 104.26.1.110
+  port: 8443
+  server: 57.128.183.248
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   type: trojan
   ws-opts:
     headers:
       Host: snippets.kkii.eu.org
-    path: '%2F%2F'
-- name: '#096 HK33'
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#090 JP11 CF6'
+  network: ws
+  password: 5a2c16f9
+  port: 50090
+  server: 203.137.166.120
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#091 GB3 CF7'
+  network: ws
+  password: 5a2c16f9
+  port: 8443
+  server: 57.129.137.239
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#092 GB4 CF8'
+  network: ws
+  password: 5a2c16f9
+  port: 8443
+  server: 57.128.178.232
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#093 KR3 CF9'
+  network: ws
+  password: 5a2c16f9
+  port: 12203
+  server: 59.6.239.208
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#094 KR4 CF10'
+  network: ws
+  password: 5a2c16f9
+  port: 50001
+  server: 144.24.87.69
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#095 KR5 CF11'
+  network: ws
+  password: 5a2c16f9
+  port: 38066
+  server: 132.145.88.82
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#096 GB5 CF12'
+  network: ws
+  password: 5a2c16f9
+  port: 8443
+  server: 57.128.181.125
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#097 JP12 CF13'
+  network: ws
+  password: 5a2c16f9
+  port: 10129
+  server: 138.2.59.96
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#098 GB6 CF14'
+  network: ws
+  password: 5a2c16f9
+  port: 8443
+  server: 57.129.137.60
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#099 GB7 CF15'
+  network: ws
+  password: 5a2c16f9
+  port: 8443
+  server: 57.128.181.26
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#100 US17 CF16'
+  network: ws
+  password: 5a2c16f9
+  port: 8443
+  server: 162.220.13.14
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#101 GB8 CF17'
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 135.84.73.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#102 HK44 CF18'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 156.230.12.71
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#103 DE5 CF19'
+  network: ws
+  password: 5a2c16f9
+  port: 2053
+  server: 51.195.102.49
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#104 US18 CF20'
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 94.140.0.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#105 GB9 CF21'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 57.128.181.151
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#106 GB10 CF22'
+  network: ws
+  password: 5a2c16f9
+  port: 8443
+  server: 57.129.137.49
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#122 HK52'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%0A%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B'
+  type: trojan
+- name: '#123 HK53'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: t.me%2525252Fripaojiedian
+  type: trojan
+- name: '#124 HK54'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B'
+  type: trojan
+- name: '#127 HK56'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B'
+  type: trojan
+- name: '#134 JP16 CF23'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 103.53.81.139
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#135 GB11 CF24'
+  network: ws
+  password: 5a2c16f9
+  port: 8443
+  server: 57.128.181.26
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#136 GB12 CF25'
+  network: ws
+  password: 5a2c16f9
+  port: 8443
+  server: 57.128.183.248
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#137 GB13 CF26'
+  network: ws
+  password: 5a2c16f9
+  port: 8443
+  server: 57.128.181.125
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#138 DE6 CF27'
+  network: ws
+  password: 5a2c16f9
+  port: 2053
+  server: 51.195.102.49
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#139 GB14 CF28'
+  network: ws
+  password: 5a2c16f9
+  port: 8443
+  server: 57.129.137.239
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#140 GB15 CF29'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 57.128.181.151
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#141 GB16 CF30'
+  network: ws
+  password: 5a2c16f9
+  port: 8443
+  server: 57.129.137.60
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#142 GB17 CF31'
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 135.84.73.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#143 KR8 CF32'
+  network: ws
+  password: 5a2c16f9
+  port: 38066
+  server: 132.145.88.82
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#144 GB18 CF33'
+  network: ws
+  password: 5a2c16f9
+  port: 8443
+  server: 57.128.178.232
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#145 KR9 CF34'
+  network: ws
+  password: 5a2c16f9
+  port: 50001
+  server: 144.24.87.69
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#146 US22 CF35'
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 94.140.0.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#147 US23 CF36'
+  network: ws
+  password: 5a2c16f9
+  port: 8443
+  server: 162.220.13.14
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#148 JP17 CF37'
+  network: ws
+  password: 5a2c16f9
+  port: 10129
+  server: 138.2.59.96
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#152 HK65'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%0A%5BBy%20DukeMehdi%5D%20trojan-HK%20'
+  type: trojan
+- name: '#154 HK67'
   password: BxceQaOe
   port: 443
   server: 58.152.46.60
   skip-cert-verify: true
   sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%0A%5BBy%2BEbraSha%5D%2Btrojan-HK%2B'
   type: trojan
-- name: '#097 HK34'
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: '#100 HK35 CF42'
+- name: '#158 US26 CF40'
   network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.19.220.22
+  password: trojan
+  port: 2087
+  server: 109.234.211.66
   skip-cert-verify: true
-  sni: snippets.kkii.eu.org
+  sni: store.timimi.dpdns.org
   type: trojan
   ws-opts:
-    path: '%2F'
-- alterId: 0
-  cipher: auto
-  name: '#121 HK43'
-  network: ws
-  port: '443'
-  server: n1747624280.lie5d.cyou
-  servername: n1747624280.lie5d.cyou
-  tls: true
-  type: vmess
-  uuid: 49dcf4b4-81eb-4fe2-91d3-86dc2e27ced5
-  ws-opts:
     headers:
-      Host: n1747624280.lie5d.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '#114 JP10'
-  network: ws
-  port: '443'
-  server: n1753598451.74qxv.top
-  servername: n1753598451.74qxv.top
-  tls: true
-  type: vmess
-  uuid: 9798678f-5b8c-4ff1-bbdd-b9b5c1539de0
-  ws-opts:
-    headers:
-      Host: n1753598451.74qxv.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '#119 JP12'
-  network: ws
-  port: '443'
-  server: n1753598448.74qxv.top
-  servername: n1753598448.74qxv.top
-  tls: true
-  type: vmess
-  uuid: 3cd6f849-078e-4da9-8080-a2791b51b766
-  ws-opts:
-    headers:
-      Host: n1753598448.74qxv.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '#120 US38'
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
+      Host: store.timimi.dpdns.org
+    path: '%2F%3FBIA_TELEGRAM%20(%40AZARBAYJAB1)%20TM%20(%40AZARBAYJAB1)%20TM%20(%40AZARBAYJAB1)%20TM%20(%40AZARBAYJAB1)%20TM%20(%40AZARBAYJAB1)%20TM%20(%40AZARBAYJAB1)'
+- name: '#161 RU1'
+  password: af4b064a9c39472fb34ad8b113acdc6b
+  port: 443
+  server: 156.244.6.115
+  skip-cert-verify: true
+  sni: 156.244.6.115
+  type: trojan
+- name: '#163 US27'
+  port: 443
+  server: 5f13e165-t7vwg0-tcc9uq-1rnrp.sv.plebai.net
   tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '#122 HK44'
+  type: socks5
+  username: OTg5YWE0MDYtZWE5Yi0xMWVmLTk3ZGEtZjIzYzkxY2ZiYmM5Ojk4OWFhNDA2LWVhOWItMTFlZi05N2RhLWYyM2M5MWNmYmJjOQ%3D%3D
+- name: '#164 US28'
+  port: 443
+  server: ab17e351-t7vwg0-tcc9uq-1rnrp.sj.gotochinatown.net
+  tls: false
+  type: socks5
+  username: OTg5YWE0MDYtZWE5Yi0xMWVmLTk3ZGEtZjIzYzkxY2ZiYmM5Ojk4OWFhNDA2LWVhOWItMTFlZi05N2RhLWYyM2M5MWNmYmJjOQ%3D%3D
+- name: '#167 DE8'
+  password: 5a2fa554-4b37-44c2-8952-a1942885c215
+  port: 8443
+  server: 94.159.107.136
+  skip-cert-verify: true
+  sni: 0b92f8ce62a2de1.587458.xyz
+  tls: false
+  type: hysteria2
+- name: '#169 US30 CF42'
   network: ws
-  port: '443'
-  server: n1747624267.4u9ma.icu
-  servername: n1747624267.4u9ma.icu
-  tls: true
-  type: vmess
-  uuid: 8c5d150c-b046-4440-8230-e84506a065a3
+  password: trojan
+  port: 8443
+  server: 109.234.211.66
+  skip-cert-verify: true
+  sni: store.timimi.dpdns.org
+  type: trojan
   ws-opts:
     headers:
-      Host: n1747624267.4u9ma.icu
-    path: /
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: '#126 US40'
-  password: f19c7009-7630-4bb4-b26d-09eec0b1b769
-  port: 36901
-  server: 136.0.41.79
+      Host: store.timimi.dpdns.org
+    path: '%2F'
+- name: r♡ya@V2rayBaaz
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 135.125.204.154
   skip-cert-verify: true
-  sni: www.python.org
-  type: tuic
-  udp-relay-mode: native
-  uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: '#127 US41'
-  password: f19c7009-7630-4bb4-b26d-09eec0b1b769
-  port: 60000
-  server: 136.0.41.79
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 'r♡ya@V2rayBaaz #8'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 33500
+  server: updates.kermanshahi.org
   skip-cert-verify: true
-  sni: www.python.org
-  type: tuic
-  udp-relay-mode: native
-  uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: '#129 US43'
-  password: f19c7009-7630-4bb4-b26d-09eec0b1b769
-  port: 60000
-  server: 23.94.175.162
-  skip-cert-verify: true
-  sni: www.python.org
-  type: tuic
-  udp-relay-mode: native
-  uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: '#130 SG7'
-  password: f19c7009-7630-4bb4-b26d-09eec0b1b769
-  port: 47859
-  server: 64.56.71.108
-  skip-cert-verify: true
-  sni: www.python.org
-  type: tuic
-  udp-relay-mode: native
-  uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: '#131 LV1'
-  password: f19c7009-7630-4bb4-b26d-09eec0b1b769
-  port: 60000
-  server: 217.60.2.58
-  skip-cert-verify: true
-  sni: www.python.org
-  type: tuic
-  udp-relay-mode: native
-  uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: '#132 LV2'
-  password: f19c7009-7630-4bb4-b26d-09eec0b1b769
-  port: 50000
-  server: 217.60.2.58
-  skip-cert-verify: true
-  sni: www.python.org
-  type: tuic
-  udp-relay-mode: native
-  uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: '#133 US44'
-  password: f19c7009-7630-4bb4-b26d-09eec0b1b769
-  port: 60000
-  server: 38.135.24.154
-  skip-cert-verify: true
-  sni: www.python.org
-  type: tuic
-  udp-relay-mode: native
-  uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: '#134 US45'
-  password: f19c7009-7630-4bb4-b26d-09eec0b1b769
-  port: 30000
-  server: 38.135.24.154
-  skip-cert-verify: true
-  sni: www.python.org
-  type: tuic
-  udp-relay-mode: native
-  uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: '#135 BR1'
-  password: f19c7009-7630-4bb4-b26d-09eec0b1b769
-  port: 31597
-  server: 194.58.38.67
-  skip-cert-verify: true
-  sni: www.python.org
-  type: tuic
-  udp-relay-mode: native
-  uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: '#136 NL3'
-  password: 5936c09e-b309-4946-966e-4245afd04a6a
-  port: 39781
-  server: 146.0.74.104
-  skip-cert-verify: true
-  sni: www.python.org
-  type: tuic
-  udp-relay-mode: native
-  uuid: 5936c09e-b309-4946-966e-4245afd04a6a
-- name: 🥶67@oneclickvpnkeys
-  password: b770c444-aaff-45b1-9464-452abfa63e19
-  port: 443
-  server: fegedfewqresd.kaixincloud.top
-  skip-cert-verify: true
-  sni: fegedfewqresd.kaixincloud.top
+  sni: updates.kermanshahi.org
   tls: false
   type: hysteria2
 - name: 🌨️22@oneclickvpnkeys
@@ -570,6 +955,14 @@ proxies:
   server: falankefu1.nezhasu.com
   skip-cert-verify: true
   sni: falankefu1.nezhasu.com
+  tls: false
+  type: hysteria2
+- name: 🚩41@oneclickvpnkeys
+  password: e343471a-aad3-40da-9dea-72cc8c7dce5f
+  port: 443
+  server: 152.67.95.183
+  skip-cert-verify: true
+  sni: www.apple.com
   tls: false
   type: hysteria2
 - name: All--@V2rayAlpha--17
@@ -732,6 +1125,16 @@ proxies:
   sni: refersion.com
   tls: false
   type: hysteria2
+- name: 🇱🇺@V2RayyNGvpn🇱🇺همه اوپراتور ه...
+  obfs: salamander
+  obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
+  password: 5x02AmyHdh
+  port: 2087
+  server: 134.209.206.135
+  skip-cert-verify: true
+  sni: refersion.com
+  tls: false
+  type: hysteria2
 - name: 'All--@IRAN_V2RAY1🇺🇸 #1'
   password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 1743
@@ -798,6 +1201,16 @@ proxies:
   server: uk2.oomz.ru
   skip-cert-verify: true
   sni: bing.com#All-
+  tls: false
+  type: hysteria2
+- name: 🇲🇫@V2RayyNGvpn🇲🇫همه اوپراتور ه...
+  obfs: salamander
+  obfs-password: Jsbdksj@V2RayyNGvpn$Miracle
+  password: 87q1ZjCf5K
+  port: 2087
+  server: 45.32.145.222
+  skip-cert-verify: true
+  sni: refersion.com
   tls: false
   type: hysteria2
 - name: All--@V2rayAlpha--25
@@ -960,7 +1373,7 @@ proxies:
   sni: YAPC-1.afshin.ir#All-
   tls: false
   type: hysteria2
-- name: '🇳🇱@FreakConfig #1'
+- name: '🇳🇱@FreakConfig #2'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -980,7 +1393,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '🇳🇱@FreakConfig #2'
+- name: '🇳🇱@FreakConfig #3'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -990,7 +1403,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '🇳🇱@FreakConfig #3'
+- name: '🇳🇱@FreakConfig #4'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -1054,16 +1467,6 @@ proxies:
   sni: f643a7e8-t6ngg0-t74ix0-1m0fq.hk1.hyhuawei.com
   tls: false
   type: hysteria2
-- name: r♡ya@V2rayBaaz
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 135.125.204.154
-  skip-cert-verify: true
-  sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
 - name: '🇩🇪 - DE - @freeOnlineVPN #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -1074,7 +1477,7 @@ proxies:
   sni: updates.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '🇳🇱 - NL - @freeOnlineVPN #1'
+- name: 📟32@ConfigV2RayNG
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -1084,7 +1487,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '🇳🇱 - NL - @freeOnlineVPN #2'
+- name: 🇳🇱 - NL - @freeOnlineVPN
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -1104,7 +1507,7 @@ proxies:
   sni: api.kermanshahi.org#All-
   tls: false
   type: hysteria2
-- name: '🇳🇱 - NL - @freeOnlineVPN #3'
+- name: '🇳🇱 - NL - @freeOnlineVPN #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -1172,16 +1575,6 @@ proxies:
   server: dir.cybsecguru.com
   skip-cert-verify: false
   sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 'r♡ya@V2rayBaaz #8'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 33500
-  server: updates.kermanshahi.org
-  skip-cert-verify: true
-  sni: updates.kermanshahi.org
   tls: false
   type: hysteria2
 - name: V2rayAlpha--16
@@ -1532,22 +1925,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 香港3|@ripaojiedian
-  network: tcp
-  password: f36f4495b4b26cc2fe346cfa23e05b1b
-  port: 443
-  server: 58.152.18.147
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.86
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe

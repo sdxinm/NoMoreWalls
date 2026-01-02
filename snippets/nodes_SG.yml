@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '#040 SG1'
-  network: tcp
-  port: '30812'
-  server: v12.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: f36f4495b4b26cc2fe346cfa23e05b1b

@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: '#161 RU1'
+  password: af4b064a9c39472fb34ad8b113acdc6b
+  port: 443
+  server: 156.244.6.115
+  skip-cert-verify: true
+  sni: 156.244.6.115
+  type: trojan

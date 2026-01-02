@@ -1,39 +1,70 @@
 proxies:
-- name: '#031 JP3'
-  password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05
-  port: 25010
-  server: 37.202.200.19
+- name: '#011 JP2 CF2'
+  network: ws
+  password: 5a2c16f9
+  port: 50090
+  server: 203.137.166.120
   skip-cert-verify: true
-  sni: 37.202.200.19
+  sni: snippets.kkii.eu.org
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '#114 JP10'
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#059 JP10 CF3'
   network: ws
-  port: '443'
-  server: n1753598451.74qxv.top
-  servername: n1753598451.74qxv.top
-  tls: true
-  type: vmess
-  uuid: 9798678f-5b8c-4ff1-bbdd-b9b5c1539de0
+  password: 5a2c16f9
+  port: 443
+  server: 103.53.81.139
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
   ws-opts:
     headers:
-      Host: n1753598451.74qxv.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '#119 JP12'
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#090 JP11 CF6'
   network: ws
-  port: '443'
-  server: n1753598448.74qxv.top
-  servername: n1753598448.74qxv.top
-  tls: true
-  type: vmess
-  uuid: 3cd6f849-078e-4da9-8080-a2791b51b766
+  password: 5a2c16f9
+  port: 50090
+  server: 203.137.166.120
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
   ws-opts:
     headers:
-      Host: n1753598448.74qxv.top
-    path: /
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#097 JP12 CF13'
+  network: ws
+  password: 5a2c16f9
+  port: 10129
+  server: 138.2.59.96
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#134 JP16 CF23'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 103.53.81.139
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#148 JP17 CF37'
+  network: ws
+  password: 5a2c16f9
+  port: 10129
+  server: 138.2.59.96
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

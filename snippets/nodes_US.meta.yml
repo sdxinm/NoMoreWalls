@@ -1,107 +1,144 @@
 proxies:
-- name: '#081 US20 CF27'
+- name: '#001 US1'
   network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 162.159.24.131
+  password: e57ea079-35ff-46f6-b3d2-7682b6bb4319
+  port: 2087
+  server: bestcdn4.868863.xyz
   skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: '#088 US25 CF33'
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.26.1.110
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
+  sni: 17673588945452.206355.xyz
   type: trojan
   ws-opts:
     headers:
-      Host: snippets.kkii.eu.org
-    path: '%2F'
-- name: '#090 US27 CF35'
+      Host: 17673588946977.206355.xyz
+    path: '%2Fvideomuaawe'
+- name: '#003 US2'
   network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.26.1.110
+  password: e57ea079-35ff-46f6-b3d2-7682b6bb4319
+  port: 2087
+  server: bestcdn1.868863.xyz
   skip-cert-verify: true
-  sni: snippets.kkii.eu.org
+  sni: 17673588943776.206355.xyz
   type: trojan
   ws-opts:
     headers:
-      Host: snippets.kkii.eu.org
-    path: '%2F%2F'
-- alterId: 0
-  cipher: auto
-  name: '#120 US38'
-  network: tcp
-  port: '180'
-  server: 82.198.246.97
+      Host: 17673588945492.206355.xyz
+    path: '%2Fvideomuaawe'
+- name: '#004 US3'
+  network: ws
+  password: e57ea079-35ff-46f6-b3d2-7682b6bb4319
+  port: 2083
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17673588947548.796812.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17673588945007.796812.xyz
+    path: '%2Fagraeabtegrrh'
+- name: '#006 US4'
+  network: ws
+  password: e57ea079-35ff-46f6-b3d2-7682b6bb4319
+  port: 2096
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17673588947277.206355.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 17673588948277.206355.xyz
+    path: '%2Fvideomuaawe'
+- name: '#019 US8'
+  port: 443
+  server: 57351a07-t7vwg0-tcc9uq-1rnrp.los.gotochinatown.net
   tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: '#126 US40'
-  password: f19c7009-7630-4bb4-b26d-09eec0b1b769
-  port: 36901
-  server: 136.0.41.79
+  type: socks5
+  username: OTg5YWE0MDYtZWE5Yi0xMWVmLTk3ZGEtZjIzYzkxY2ZiYmM5Ojk4OWFhNDA2LWVhOWItMTFlZi05N2RhLWYyM2M5MWNmYmJjOQ%3D%3D
+- name: '#035 US12'
+  port: 443
+  server: b135e9e8-t7bj40-tg010c-1r7od.los.gotochinatown.net
+  tls: false
+  type: socks5
+  username: NmQ1NjQzNmMtMTUwZC0xMWYwLWIwYzgtZjIzYzkxM2M4ZDJiOjZkNTY0MzZjLTE1MGQtMTFmMC1iMGM4LWYyM2M5MTNjOGQyYg%3D%3D
+- name: '#100 US17 CF16'
+  network: ws
+  password: 5a2c16f9
+  port: 8443
+  server: 162.220.13.14
   skip-cert-verify: true
-  sni: www.python.org
-  type: tuic
-  udp-relay-mode: native
-  uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: '#127 US41'
-  password: f19c7009-7630-4bb4-b26d-09eec0b1b769
-  port: 60000
-  server: 136.0.41.79
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#104 US18 CF20'
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 94.140.0.238
   skip-cert-verify: true
-  sni: www.python.org
-  type: tuic
-  udp-relay-mode: native
-  uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: '#129 US43'
-  password: f19c7009-7630-4bb4-b26d-09eec0b1b769
-  port: 60000
-  server: 23.94.175.162
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#146 US22 CF35'
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 94.140.0.238
   skip-cert-verify: true
-  sni: www.python.org
-  type: tuic
-  udp-relay-mode: native
-  uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: '#133 US44'
-  password: f19c7009-7630-4bb4-b26d-09eec0b1b769
-  port: 60000
-  server: 38.135.24.154
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#147 US23 CF36'
+  network: ws
+  password: 5a2c16f9
+  port: 8443
+  server: 162.220.13.14
   skip-cert-verify: true
-  sni: www.python.org
-  type: tuic
-  udp-relay-mode: native
-  uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: '#134 US45'
-  password: f19c7009-7630-4bb4-b26d-09eec0b1b769
-  port: 30000
-  server: 38.135.24.154
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#158 US26 CF40'
+  network: ws
+  password: trojan
+  port: 2087
+  server: 109.234.211.66
   skip-cert-verify: true
-  sni: www.python.org
-  type: tuic
-  udp-relay-mode: native
-  uuid: f19c7009-7630-4bb4-b26d-09eec0b1b769
+  sni: store.timimi.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: store.timimi.dpdns.org
+    path: '%2F%3FBIA_TELEGRAM%20(%40AZARBAYJAB1)%20TM%20(%40AZARBAYJAB1)%20TM%20(%40AZARBAYJAB1)%20TM%20(%40AZARBAYJAB1)%20TM%20(%40AZARBAYJAB1)%20TM%20(%40AZARBAYJAB1)'
+- name: '#163 US27'
+  port: 443
+  server: 5f13e165-t7vwg0-tcc9uq-1rnrp.sv.plebai.net
+  tls: false
+  type: socks5
+  username: OTg5YWE0MDYtZWE5Yi0xMWVmLTk3ZGEtZjIzYzkxY2ZiYmM5Ojk4OWFhNDA2LWVhOWItMTFlZi05N2RhLWYyM2M5MWNmYmJjOQ%3D%3D
+- name: '#164 US28'
+  port: 443
+  server: ab17e351-t7vwg0-tcc9uq-1rnrp.sj.gotochinatown.net
+  tls: false
+  type: socks5
+  username: OTg5YWE0MDYtZWE5Yi0xMWVmLTk3ZGEtZjIzYzkxY2ZiYmM5Ojk4OWFhNDA2LWVhOWItMTFlZi05N2RhLWYyM2M5MWNmYmJjOQ%3D%3D
+- name: '#169 US30 CF42'
+  network: ws
+  password: trojan
+  port: 8443
+  server: 109.234.211.66
+  skip-cert-verify: true
+  sni: store.timimi.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: store.timimi.dpdns.org
+    path: '%2F'
 - name: 'All--@IRAN_V2RAY1🇺🇸 #1'
   password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 1743
