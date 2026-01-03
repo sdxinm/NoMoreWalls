@@ -1,33 +1,30 @@
 proxies:
-- name: '#002 DE1'
-  network: ws
-  password: e57ea079-35ff-46f6-b3d2-7682b6bb4319
-  port: 2096
-  server: bestcdn1.868863.xyz
+- name: '#070 DE2'
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.198.145.155
   skip-cert-verify: true
-  sni: 17673588943109.796813.xyz
+  sni: 18.198.145.155
   type: trojan
-  ws-opts:
-    headers:
-      Host: 17673588945338.796813.xyz
-    path: '%2Fagrbniuh'
-- name: '#005 DE2'
-  network: ws
-  password: e57ea079-35ff-46f6-b3d2-7682b6bb4319
-  port: 2087
-  server: bestcdn2.868863.xyz
+- name: '#084 DE5'
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.198.145.155
   skip-cert-verify: true
-  sni: 17673588943211.796813.xyz
+  sni: trojan.burgerip.co.uk
   type: trojan
-  ws-opts:
-    headers:
-      Host: 17673588946505.796813.xyz
-    path: '%2Fagrbniuh'
-- name: '#088 DE4 CF4'
+- name: '#085 DE6'
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.196.24.56
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: '#093 DE7 CF13'
   network: ws
   password: 5a2c16f9
-  port: 8443
-  server: 162.55.187.121
+  port: 443
+  server: 49.13.234.155
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   type: trojan
@@ -35,11 +32,11 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#103 DE5 CF19'
+- name: '#094 DE8 CF14'
   network: ws
   password: 5a2c16f9
-  port: 2053
-  server: 51.195.102.49
+  port: 37607
+  server: 91.107.145.203
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   type: trojan
@@ -47,13 +44,24 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#138 DE6 CF27'
-  network: ws
-  password: 5a2c16f9
-  port: 2053
-  server: 51.195.102.49
+- name: '#121 DE11'
+  password: smart@-PhVxMdT5OVnjtTecU-kZoej
+  port: 443
+  server: starlink-de1.2513142.xyz
   skip-cert-verify: true
-  sni: snippets.kkii.eu.org
+  sni: www.cloudflare.com
   type: trojan
-  ws-opts:
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#122 DE12'
+  password: smart@-PhVxMdT5OVnjtTecU-kZoej
+  port: 443
+  server: starlink-de2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- name: '#123 DE13'
+  password: smart@-PhVxMdT5OVnjtTecU-kZoej
+  port: 10025
+  server: z-eu1.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan

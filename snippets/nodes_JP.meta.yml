@@ -1,15 +1,5 @@
 proxies:
-- name: '#011 JP2 CF2'
-  network: ws
-  password: 5a2c16f9
-  port: 50090
-  server: 203.137.166.120
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#059 JP10 CF3'
+- name: '#019 JP5 CF1'
   network: ws
   password: 5a2c16f9
   port: 443
@@ -21,31 +11,7 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#090 JP11 CF6'
-  network: ws
-  password: 5a2c16f9
-  port: 50090
-  server: 203.137.166.120
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#097 JP12 CF13'
-  network: ws
-  password: 5a2c16f9
-  port: 10129
-  server: 138.2.59.96
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#134 JP16 CF23'
+- name: '#055 JP6 CF4'
   network: ws
   password: 5a2c16f9
   port: 443
@@ -55,16 +21,64 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#148 JP17 CF37'
+- name: '#179 JP10'
   network: ws
-  password: 5a2c16f9
-  port: 10129
-  server: 138.2.59.96
+  password: aff9928f-7ba3-45fb-b56d-4dec45653ca9
+  port: 443
+  server: 23.227.38.33
   skip-cert-verify: true
-  sni: snippets.kkii.eu.org
+  sni: z9mifq7ujufk56im.jptimecsgo.xyz
   type: trojan
   ws-opts:
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+    path: '%2Fimages'
+- name: 东京
+  password: 16461a78-363c-457a-92f9-83b0a68edc37
+  port: 2056
+  server: zp1.eyucdn.xyz
+  skip-cert-verify: true
+  sni: zp1.eyujichang.xyz
+  tls: false
+  type: hysteria2
+- name: 🇯🇵日本
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 89a62b16-a3c3-4ad7-be18-6f0266f7a2c5
+  port: 443
+  server: jpjp.gzcloud.shop
+  skip-cert-verify: true
+  sni: jpjp.gzcloud.shop
+  tls: false
+  type: hysteria2
+- name: 'JP #1'
+  password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
+  port: 13778
+  server: jp7.dexlos.com
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 'JP #2'
+  password: 97f8e11a-683a-493d-839a-3340a7bc63fb
+  port: 37771
+  server: dg1.xiaohuolongjc.top
+  sni: dg1.xiaohuolongjc.top
+  tls: false
+  type: hysteria2
+- name: 'JP #3'
+  password: qq4Wc9UakExypzw4Jd00fWqrDTY
+  port: 22712
+  server: 8.209.223.212
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: 'JP #4'
+  password: yD0mxkCA18WgPD1uVGd3Eu1dc
+  port: 27789
+  server: 47.245.0.72
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

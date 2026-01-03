@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- name: '#159 CA1'
+  password: smart@-PhVxMdT5OVnjtTecU-kZoej
+  port: 10001
+  server: z-us2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- name: '#161 CA3'
+  password: smart@-PhVxMdT5OVnjtTecU-kZoej
+  port: 443
+  server: starlink-tor.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- name: '#164 CA4'
+  password: smart@-PhVxMdT5OVnjtTecU-kZoej
+  port: 10002
+  server: z-us2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan

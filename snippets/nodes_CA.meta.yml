@@ -1,4 +1,41 @@
 proxies:
+- name: '#159 CA1'
+  password: smart@-PhVxMdT5OVnjtTecU-kZoej
+  port: 10001
+  server: z-us2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- name: '#160 CA2'
+  password: smart@-PhVxMdT5OVnjtTecU-kZoej
+  port: 443
+  server: starlink-tor.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tls: false
+  type: hysteria2
+- name: '#161 CA3'
+  password: smart@-PhVxMdT5OVnjtTecU-kZoej
+  port: 443
+  server: starlink-tor.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- name: '#164 CA4'
+  password: smart@-PhVxMdT5OVnjtTecU-kZoej
+  port: 10002
+  server: z-us2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- name: '#185 CA5'
+  password: d16515cb-814d-43bd-8a0c-ecc91a34c2c0
+  port: 25200
+  server: xjp.kaixincloud.top
+  skip-cert-verify: true
+  sni: xjp.kaixincloud.top
+  tls: false
+  type: hysteria2
 - name: '🔸@IRAN_V2RAY1💘 #5'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1

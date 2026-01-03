@@ -1,77 +1,5 @@
 proxies:
-- name: '#089 GB2 CF5'
-  network: ws
-  password: 5a2c16f9
-  port: 8443
-  server: 57.128.183.248
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#091 GB3 CF7'
-  network: ws
-  password: 5a2c16f9
-  port: 8443
-  server: 57.129.137.239
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#092 GB4 CF8'
-  network: ws
-  password: 5a2c16f9
-  port: 8443
-  server: 57.128.178.232
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#096 GB5 CF12'
-  network: ws
-  password: 5a2c16f9
-  port: 8443
-  server: 57.128.181.125
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#098 GB6 CF14'
-  network: ws
-  password: 5a2c16f9
-  port: 8443
-  server: 57.129.137.60
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#099 GB7 CF15'
-  network: ws
-  password: 5a2c16f9
-  port: 8443
-  server: 57.128.181.26
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#101 GB8 CF17'
+- name: '#049 GB1 CF2'
   network: ws
   password: 5a2c16f9
   port: 2096
@@ -83,91 +11,7 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#105 GB9 CF21'
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 57.128.181.151
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#106 GB10 CF22'
-  network: ws
-  password: 5a2c16f9
-  port: 8443
-  server: 57.129.137.49
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#135 GB11 CF24'
-  network: ws
-  password: 5a2c16f9
-  port: 8443
-  server: 57.128.181.26
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#136 GB12 CF25'
-  network: ws
-  password: 5a2c16f9
-  port: 8443
-  server: 57.128.183.248
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#137 GB13 CF26'
-  network: ws
-  password: 5a2c16f9
-  port: 8443
-  server: 57.128.181.125
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#139 GB14 CF28'
-  network: ws
-  password: 5a2c16f9
-  port: 8443
-  server: 57.129.137.239
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#140 GB15 CF29'
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 57.128.181.151
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#141 GB16 CF30'
-  network: ws
-  password: 5a2c16f9
-  port: 8443
-  server: 57.129.137.60
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#142 GB17 CF31'
+- name: '#056 GB2 CF5'
   network: ws
   password: 5a2c16f9
   port: 2096
@@ -177,16 +21,50 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#144 GB18 CF33'
-  network: ws
-  password: 5a2c16f9
-  port: 8443
-  server: 57.128.178.232
+- name: '#130 GB5'
+  password: smart@-PhVxMdT5OVnjtTecU-kZoej
+  port: 10015
+  server: z-eu1.2513142.xyz
   skip-cert-verify: true
-  sni: snippets.kkii.eu.org
+  sni: www.cloudflare.com
   type: trojan
-  ws-opts:
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#131 GB6'
+  password: smart@-PhVxMdT5OVnjtTecU-kZoej
+  port: 10015
+  server: z-eu2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- name: '#167 GB7'
+  password: smart@-PhVxMdT5OVnjtTecU-kZoej
+  port: 10031
+  server: z-eu1.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- name: '#168 GB8'
+  password: smart@-PhVxMdT5OVnjtTecU-kZoej
+  port: 10031
+  server: z-eu2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+- name: UK
+  password: 3C8h8X6kimbOX68joVe3kTERw
+  port: 7197
+  server: 206.189.20.193
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: UK家宽
+  password: 7GEEGxAfgQaVPQX0PGk7lIuj3I
+  port: 10820
+  server: 158.41.110.234
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
 - name: All--@IRAN_V2RAY1🇬🇧
   obfs: salamander
   obfs-password: khameniiko@smad@ret

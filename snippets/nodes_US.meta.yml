@@ -1,144 +1,144 @@
 proxies:
-- name: '#001 US1'
+- name: '#050 US3 CF3'
   network: ws
-  password: e57ea079-35ff-46f6-b3d2-7682b6bb4319
+  password: 5a2c16f9
+  port: 2096
+  server: 94.140.0.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#057 US4 CF6'
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 94.140.0.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#069 US5'
+  network: ws
+  password: a837c6d5-6af9-45c3-863d-3d5c1b9e4171
   port: 2087
   server: bestcdn4.868863.xyz
   skip-cert-verify: true
-  sni: 17673588945452.206355.xyz
+  sni: 17674475769882.206355.xyz
   type: trojan
   ws-opts:
     headers:
-      Host: 17673588946977.206355.xyz
+      Host: 17674475769766.206355.xyz
     path: '%2Fvideomuaawe'
-- name: '#003 US2'
-  network: ws
-  password: e57ea079-35ff-46f6-b3d2-7682b6bb4319
-  port: 2087
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17673588943776.206355.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17673588945492.206355.xyz
-    path: '%2Fvideomuaawe'
-- name: '#004 US3'
-  network: ws
-  password: e57ea079-35ff-46f6-b3d2-7682b6bb4319
-  port: 2083
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17673588947548.796812.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17673588945007.796812.xyz
-    path: '%2Fagraeabtegrrh'
-- name: '#006 US4'
-  network: ws
-  password: e57ea079-35ff-46f6-b3d2-7682b6bb4319
-  port: 2096
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17673588947277.206355.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 17673588948277.206355.xyz
-    path: '%2Fvideomuaawe'
-- name: '#019 US8'
+- name: '#089 US8'
   port: 443
-  server: 57351a07-t7vwg0-tcc9uq-1rnrp.los.gotochinatown.net
-  tls: false
-  type: socks5
-  username: OTg5YWE0MDYtZWE5Yi0xMWVmLTk3ZGEtZjIzYzkxY2ZiYmM5Ojk4OWFhNDA2LWVhOWItMTFlZi05N2RhLWYyM2M5MWNmYmJjOQ%3D%3D
-- name: '#035 US12'
-  port: 443
-  server: b135e9e8-t7bj40-tg010c-1r7od.los.gotochinatown.net
+  server: 6af9dd78-t7bj40-tg010c-1r7od.sj.gotochinatown.net
   tls: false
   type: socks5
   username: NmQ1NjQzNmMtMTUwZC0xMWYwLWIwYzgtZjIzYzkxM2M4ZDJiOjZkNTY0MzZjLTE1MGQtMTFmMC1iMGM4LWYyM2M5MTNjOGQyYg%3D%3D
-- name: '#100 US17 CF16'
+- name: '#174 US13 CF20'
+  password: c10b9715-5cbd-4a1b-a13e-d4aae8d288d5
+  port: 20000
+  server: yg.dabache.top
+  skip-cert-verify: true
+  sni: yg.dabache.top
+  tls: false
+  type: hysteria2
+- name: '#175 US14 CF21'
   network: ws
   password: 5a2c16f9
-  port: 8443
-  server: 162.220.13.14
+  port: 443
+  server: 27.50.48.206
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   type: trojan
   ws-opts:
     headers:
       Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#104 US18 CF20'
-  network: ws
-  password: 5a2c16f9
-  port: 2096
-  server: 94.140.0.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#146 US22 CF35'
-  network: ws
-  password: 5a2c16f9
-  port: 2096
-  server: 94.140.0.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#147 US23 CF36'
-  network: ws
-  password: 5a2c16f9
-  port: 8443
-  server: 162.220.13.14
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  type: trojan
-  ws-opts:
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#158 US26 CF40'
-  network: ws
-  password: trojan
-  port: 2087
-  server: 109.234.211.66
-  skip-cert-verify: true
-  sni: store.timimi.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: store.timimi.dpdns.org
-    path: '%2F%3FBIA_TELEGRAM%20(%40AZARBAYJAB1)%20TM%20(%40AZARBAYJAB1)%20TM%20(%40AZARBAYJAB1)%20TM%20(%40AZARBAYJAB1)%20TM%20(%40AZARBAYJAB1)%20TM%20(%40AZARBAYJAB1)'
-- name: '#163 US27'
-  port: 443
-  server: 5f13e165-t7vwg0-tcc9uq-1rnrp.sv.plebai.net
-  tls: false
-  type: socks5
-  username: OTg5YWE0MDYtZWE5Yi0xMWVmLTk3ZGEtZjIzYzkxY2ZiYmM5Ojk4OWFhNDA2LWVhOWItMTFlZi05N2RhLWYyM2M5MWNmYmJjOQ%3D%3D
-- name: '#164 US28'
-  port: 443
-  server: ab17e351-t7vwg0-tcc9uq-1rnrp.sj.gotochinatown.net
-  tls: false
-  type: socks5
-  username: OTg5YWE0MDYtZWE5Yi0xMWVmLTk3ZGEtZjIzYzkxY2ZiYmM5Ojk4OWFhNDA2LWVhOWItMTFlZi05N2RhLWYyM2M5MWNmYmJjOQ%3D%3D
-- name: '#169 US30 CF42'
-  network: ws
-  password: trojan
-  port: 8443
-  server: 109.234.211.66
-  skip-cert-verify: true
-  sni: store.timimi.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: store.timimi.dpdns.org
     path: '%2F'
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: '#198 US18'
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 61233
+  server: phoenix-1.nezhasu.cn
+  skip-cert-verify: true
+  sni: phoenix-1.nezhasu.cn
+  type: tuic
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: '#199 US19'
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 55374
+  server: phoenix-2.nezhasu.cn
+  skip-cert-verify: true
+  sni: phoenix-2.nezhasu.cn
+  type: tuic
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: '#200 US20'
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 51282
+  server: phoenix-3.nezhasu.com
+  skip-cert-verify: true
+  sni: phoenix-3.nezhasu.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: '#201 US21'
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 56438
+  server: phoenix-4.nezhasu.com
+  skip-cert-verify: true
+  sni: phoenix-4.nezhasu.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- name: 美国
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2056
+  server: lsj3.mangshe.xyz
+  skip-cert-verify: true
+  sni: lsj3.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: '美国 #1'
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2056
+  server: mg1.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg1.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 美国2
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: US
+  password: peEduuHzbExjK7UQHzazXwqgA
+  port: 27704
+  server: 166.88.164.9
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
 - name: 'All--@IRAN_V2RAY1🇺🇸 #1'
   password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 1743

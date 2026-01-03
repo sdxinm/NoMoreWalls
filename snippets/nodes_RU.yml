@@ -1,8 +1,15 @@
 proxies:
-- name: '#161 RU1'
-  password: af4b064a9c39472fb34ad8b113acdc6b
-  port: 443
-  server: 156.244.6.115
+- name: '#152 RU3'
+  password: smart@-PhVxMdT5OVnjtTecU-kZoej
+  port: 10010
+  server: z-eu1.2513142.xyz
   skip-cert-verify: true
-  sni: 156.244.6.115
+  sni: www.cloudflare.com
+  type: trojan
+- name: '#153 RU4'
+  password: smart@-PhVxMdT5OVnjtTecU-kZoej
+  port: 10010
+  server: z-eu2.2513142.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
   type: trojan
