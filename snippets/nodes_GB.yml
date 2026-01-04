@@ -1,5 +1,5 @@
 proxies:
-- name: '#049 GB1 CF2'
+- name: '#034 GB1 CF24'
   network: ws
   password: 5a2c16f9
   port: 2096
@@ -11,7 +11,19 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#056 GB2 CF5'
+- name: '#036 GB2 CF26'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 162.159.128.253
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2F%2F'
+- name: '#065 GB3 CF30'
   network: ws
   password: 5a2c16f9
   port: 2096
@@ -21,31 +33,25 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-- name: '#130 GB5'
-  password: smart@-PhVxMdT5OVnjtTecU-kZoej
-  port: 10015
-  server: z-eu1.2513142.xyz
+- name: '#105 GB8 CF41'
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 160.153.136.238
   skip-cert-verify: true
-  sni: www.cloudflare.com
+  sni: snippets.kkii.eu.org
   type: trojan
-- name: '#131 GB6'
-  password: smart@-PhVxMdT5OVnjtTecU-kZoej
-  port: 10015
-  server: z-eu2.2513142.xyz
+  ws-opts:
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
+- name: '#376 GB13 CF205'
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 162.159.128.253
   skip-cert-verify: true
-  sni: www.cloudflare.com
+  sni: snippets.kkii.eu.org
   type: trojan
-- name: '#167 GB7'
-  password: smart@-PhVxMdT5OVnjtTecU-kZoej
-  port: 10031
-  server: z-eu1.2513142.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-- name: '#168 GB8'
-  password: smart@-PhVxMdT5OVnjtTecU-kZoej
-  port: 10031
-  server: z-eu2.2513142.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: '%2F'

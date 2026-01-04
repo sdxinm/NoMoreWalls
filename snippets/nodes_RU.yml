@@ -1,18 +1,4 @@
 proxies:
-- name: '#152 RU3'
-  password: smart@-PhVxMdT5OVnjtTecU-kZoej
-  port: 10010
-  server: z-eu1.2513142.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-- name: '#153 RU4'
-  password: smart@-PhVxMdT5OVnjtTecU-kZoej
-  port: 10010
-  server: z-eu2.2513142.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
 - name: RU_speednode_0011
   network: ws
   password: 554f139b-f31f-41c4-99f9-73d60647db26
