@@ -384,8 +384,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 香港3|@ripaojiedian
-  network: tcp
+- name: 🇭🇰 香港3|@ripaojiedian
   password: 381f2e86233720eacda26d50e9aa26da
   port: 443
   server: 58.152.18.48
@@ -418,3 +417,24 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 香港2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: hkt.gotochinatown.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- name: 香港3|@ripaojiedian
+  network: tcp
+  password: 381f2e86233720eacda26d50e9aa26da
+  port: 443
+  server: 58.152.110.104
+  sni: www.nintendogames.net
+  type: trojan
