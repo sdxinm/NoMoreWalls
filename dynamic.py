@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# import re
+import re
 # import datetime
 # import requests
 # import threading
@@ -73,13 +73,17 @@ from fetch import raw2fastly, session, LOCAL
 #     return subs
 
 def fakeyou():
-    res = session.get("https://fakeyou.top")
+    DOMAIN = "https://fakeyou.top"
+    res = session.get(DOMAIN)
     res.raise_for_status()
+    url = re.search(r'<a href="(/post/\d+/)"', res.text)
+    if not url: return
+    res = session.get(DOMAIN+url.group(1))
     lines = res.text.splitlines()
     for line in lines:
         line = line.strip()
         if line.startswith("https://image.fakeyou.top/"):
-            return line+"#ignore=ss,vless"
+            return line.split('<')[0]+"#ignore=ss,vless"
 
 AUTOFUNTYPE = Callable[[], Union[str, Iterable[str], None]]
 AUTOURLS: List[AUTOFUNTYPE] = [fakeyou]

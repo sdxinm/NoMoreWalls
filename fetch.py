@@ -1436,7 +1436,7 @@ def main():
         except: out += '0'
         out += '\n'
     out += f"\n总计,,{len(merged)}\n"
-    open("list_result.csv",'w').write(out)
+    open("list_result.csv",'w',errors='replace').write(out)
 
     print("写出完成！")
 
