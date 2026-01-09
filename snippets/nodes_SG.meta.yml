@@ -1,18 +1,28 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: SG4｜机房｜低风险
-  network: ws
-  port: '443'
-  server: singapore02.zgjok.com
-  servername: singapore02.zgjok.com
-  tls: true
-  type: vmess
-  uuid: 780c7671-e8c8-45ab-922b-4fdfc4310aa0
-  ws-opts:
-    headers:
-      Host: singapore02.zgjok.com
-    path: /
+- name: SG1｜家宽｜非常安全
+  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
+  port: 21006
+  server: fq-sg.mxtn.net
+  skip-cert-verify: true
+  sni: fq-sg.mxtn.net
+  tls: false
+  type: hysteria2
+- name: SG2｜家宽｜非常安全
+  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
+  port: 21658
+  server: fq-sg.mxtn.net
+  skip-cert-verify: true
+  sni: fq-sg.mxtn.net
+  tls: false
+  type: hysteria2
+- name: SG3｜家宽｜非常安全
+  password: e3c9c176-7ce6-40c8-9206-ff5ea72b1f0a
+  port: 21062
+  server: fq-sg.mxtn.net
+  skip-cert-verify: true
+  sni: fq-sg.mxtn.net
+  tls: false
+  type: hysteria2
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 61d8077bfb174e171b8283f155a555ad
