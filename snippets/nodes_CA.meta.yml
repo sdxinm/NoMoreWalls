@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- name: CA1｜商宽｜非常安全
+  password: 6d68ba2c-89b9-475d-a193-1cd65571e037
+  port: 443
+  server: jnd.dabache.top
+  skip-cert-verify: true
+  sni: jnd.dabache.top
+  tls: false
+  type: hysteria2
+- name: CA2｜商宽｜非常安全
+  password: f9504f36-66bf-48ff-bb38-c73ffe2d6b96
+  port: 20000
+  server: jnd.dabache.top
+  skip-cert-verify: true
+  sni: jnd.dabache.top
+  tls: false
+  type: hysteria2
