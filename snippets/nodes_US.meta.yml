@@ -278,8 +278,7 @@ proxies:
     headers:
       Host: 17679677974071.206355.xyz
     path: '%2Fvideomuaawe'
-- name: 美国|@ripaojiedian
-  network: tcp
+- name: 🇺🇸 美国|@ripaojiedian
   password: 61d8077bfb174e171b8283f155a555ad
   port: 1281
   server: 160.16.87.174
@@ -294,11 +293,25 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- name: 🇺🇸 美国3|@ripaojiedian
+  password: BxceQaOe
+  port: 4569
+  server: 43.198.110.101
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 美国|@ripaojiedian
+  network: tcp
+  password: 61d8077bfb174e171b8283f155a555ad
+  port: 5076
+  server: 160.16.57.238
+  sni: www.nintendogames.net
+  type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 4569
-  server: 43.198.110.101
+  server: 43.199.60.168
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
