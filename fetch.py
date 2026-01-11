@@ -53,7 +53,7 @@ import sys
 import os
 import copy
 from types import FunctionType as function
-from typing import Set, List, Dict, Union, Callable, Any, Optional, Iterable
+from typing import Set, List, Dict, Union, Callable, Any, Optional, Iterable, TypedDict
 
 try: PROXY = open("local_proxy.conf").read().strip()
 except FileNotFoundError: LOCAL = False; PROXY = None
@@ -141,7 +141,11 @@ class NotANode(Exception): pass
 
 class Node:
     gNames: Set[str] = set()
-    DATA_TYPE = Dict[str, Any]
+    class DATA_TYPE(TypedDict):
+        name: str
+        type: str
+        server: str
+        port: int
 
     def __init__(self, data: Union[DATA_TYPE, str]) -> None:
         if isinstance(data, dict):
@@ -1335,12 +1339,12 @@ def main():
         else: print("规则 '"+rule+"' 无法被解析！"); continue
         for kwd in keywords:
             if kwd in rargument and kwd != rargument:
-                print(rargument, "已被 KEYWORD", kwd, "命中")
+                # print(rargument, "已被 KEYWORD", kwd, "命中")
                 break
         else:
             for sfx in suffixes:
                 if ('.'+rargument).endswith('.'+sfx) and sfx != rargument:
-                    print(rargument, "已被 SUFFIX", sfx, "命中")
+                    # print(rargument, "已被 SUFFIX", sfx, "命中")
                     break
             else:
                 k = rtype+','+rargument
