@@ -249,6 +249,10 @@ class Node:
                 getattr(self, '_load_'+self.type, None)
         if loader: loader(url, dt)
         else: raise UnsupportedType(self.type)
+        if ('server' in self.data and ':' in self.data['server'] and 
+                not self.data['server'].startswith('[')):
+            # Fix IPv6
+            self.data['server'] = f"[{self.data['server']}]"
 
     def _load_vmess(self, url: str, dt: str):
         v = VMESS_TEMPLATE.copy()
@@ -279,14 +283,16 @@ class Node:
             self.data['grpc-opts'] = {'grpc-service-name': v['path']}
 
     def _load_ss(self, url: str, dt: str):
-        info = url.split('@')
+        info = dt.split('@')
         srvname = info.pop()
         if '#' in srvname:
             srv, name = srvname.split('#')
         else:
             srv = srvname
             name = ''
-        server, port = srv.split(':')
+        segs = srv.split(':')
+        port = segs[-1]
+        server = ':'.join(segs[:-1])
         try:
             port = int(port)
         except ValueError:
@@ -303,6 +309,7 @@ class Node:
                 'port': port, 'type': 'ss', 'password': passwd, 'cipher': cipher}
 
     def _load_ssr(self, url: str, dt: str):
+        # TODO: IPv6 server support
         if '?' in url:
             parts = dt.split(':')
         else:
@@ -539,7 +546,6 @@ class Node:
         if STOP: return False
         try:
             if 'server' not in self.data: return True
-            if '.' not in self.data['server']: return True
             if self.data['server'] in FAKE_IPS: return True
             if int(str(self.data['port'])) < 20: return True
             for domain in FAKE_DOMAINS:
@@ -594,6 +600,7 @@ class Node:
         return f"ss://{passwd}@{data['server']}:{data['port']}#{quote(data['name'])}"
 
     def _url_ssr(self, data: DATA_TYPE) -> str:
+        # TODO: Fix IPv6
         ret = (':'.join([str(data[_]) for _ in ('server','port',
                                     'protocol','cipher','obfs')]) +
                 b64encodes_safe(data['password']) +
@@ -721,6 +728,8 @@ class Node:
     @property
     def clash_data(self) -> DATA_TYPE:
         ret = self.data.copy()
+        if 'server' in ret and ret['server'].startswith('['):
+            ret['server'] = ret['server'][1:-1]
         if 'password' in ret and ret['password'].isdigit():
             ret['password'] = '!!str '+ret['password']
         if 'uuid' in ret and len(ret['uuid']) != len(DEFAULT_UUID):
@@ -736,7 +745,7 @@ class Node:
         if 'alpn' in ret and isinstance(ret['alpn'], str):
             # 'alpn' is not a slice
             ret['alpn'] = ret['alpn'].replace(' ','').split(',')
-        # A temporary fix for mihomo-party's `invalid REALITY short ID` error.
+        # A temporary fix for clash-party's `invalid REALITY short ID` error.
         if 'reality-opts' in ret and 'short-id' in ret['reality-opts']:
             ret['reality-opts']['short-id'] = '!!str '+ret['reality-opts']['short-id']
         return ret
