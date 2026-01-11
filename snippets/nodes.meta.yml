@@ -1380,6 +1380,16 @@ proxies:
     headers:
       Host: 17679677974071.206355.xyz
     path: '%2Fvideomuaawe'
+- name: ⛄3@ConfigV2RayNG
+  obfs: salamander
+  obfs-password: FnFgQIckcMRtKq7i
+  password: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14
+  port: 443
+  server: 2001:bc8:1640:50eb:dc00:ff:fe57:dd6f
+  skip-cert-verify: true
+  sni: Ab.ac
+  tls: false
+  type: hysteria2
 - name: 📟22@ConfigV2RayNG
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
@@ -1397,6 +1407,16 @@ proxies:
   port: 45000
   server: 206.71.158.23
   skip-cert-verify: false
+  sni: gavazn.55994421.xyz
+  tls: false
+  type: hysteria2
+- name: ♾️17@ConfigV2RayNG
+  obfs: salamander
+  obfs-password: Telegram-->@Ln2Ray
+  password: Telegram-->@Ln2Ray
+  port: 443
+  server: 2a14:3f87:f001:9::a
+  skip-cert-verify: true
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
@@ -1456,6 +1476,16 @@ proxies:
   password: Yet-Another-Public-Config-1
   port: 36600
   server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: ⚛️4@ConfigV2RayNG
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 443
+  server: 2a14:3f87:f001:13::a
   skip-cert-verify: true
   sni: YAPC-1.afshin.ir
   tls: false
@@ -1560,6 +1590,79 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 'ConfigV2RayNG #8'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 443
+  server: 2a0c:4ac1:8::121
+  skip-cert-verify: false
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 'ConfigV2RayNG #9'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 5707
+  server: 2a0f:5707:aaf1:4d5b::1
+  skip-cert-verify: false
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 'ConfigV2RayNG #10'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 5707
+  server: 2a0f:5707:aaf1:8453::1
+  skip-cert-verify: false
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: '@ConfigV2RayNG #2'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 5707
+  server: 2a0f:5707:aaf1:c427::1
+  skip-cert-verify: false
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 'ConfigV2RayNG #11'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 443
+  server: 2a14:3f87:f001:1a::a
+  skip-cert-verify: false
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 14🔵@ConfigV2RayNG
+  password: dongtaiwang.com
+  port: 443
+  server: 2001:bc8:32d7:302::11
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 🔱 | @ConfigV2RayNG 🇫🇷
+  password: dongtaiwang.com
+  port: 443
+  server: 2001:bc8:32d7:302::11
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
+- name: 🎨19@ConfigV2RayNG
+  password: dongtaiwang.com
+  port: 443
+  server: 2001:bc8:32d7:302::11
+  skip-cert-verify: true
+  sni: 🔒
+  tls: false
+  type: hysteria2
 - name: All-@V2rayAlpha--1
   password: e343471a-aad3-40da-9dea-72cc8c7dce5f
   port: 443
@@ -1597,7 +1700,7 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
-  name: tg频道:@ripaojiedian
+  name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -1707,13 +1810,13 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: aes-256-cfb
-  name: 🇰🇷 韩国|@ripaojiedian
+  name: 韩国|@ripaojiedian
   password: qwerREWQ@@
   port: 51978
   server: 168.126.234.247
   type: ss
 - cipher: aes-256-cfb
-  name: 🇻🇳 越南|@ripaojiedian
+  name: 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.119

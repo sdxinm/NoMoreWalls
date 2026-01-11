@@ -72,3 +72,11 @@ proxies:
   sni: fq-fr.mxtn.net
   tls: false
   type: hysteria2
+- name: 🔱 | @ConfigV2RayNG 🇫🇷
+  password: dongtaiwang.com
+  port: 443
+  server: 2001:bc8:32d7:302::11
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
