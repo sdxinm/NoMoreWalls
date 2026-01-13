@@ -367,6 +367,13 @@ trojan://6a940633-9d92-4f80-b635-75b4a45962c2@bestcdn2.868863.xyz:2096?allowInse
 trojan://6a940633-9d92-4f80-b635-75b4a45962c2@bestcdn3.868863.xyz:2053?allowInsecure=1&sni=17682226002578.206355.xyz&type=ws&host=17682226002017.206355.xyz&path=%2Fvideomuaawe#US74%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
 trojan://6a940633-9d92-4f80-b635-75b4a45962c2@bestcdn4.868863.xyz:2096?allowInsecure=1&sni=17682226001301.206352.xyz&type=ws&host=17682226008309.206352.xyz&path=%2Fagraeabtegrrh#US75%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
 trojan://6a940633-9d92-4f80-b635-75b4a45962c2@bestcdn4.868863.xyz:8443?allowInsecure=1&sni=17682226009316.206353.xyz&type=ws&host=17682226002971.206353.xyz&path=%2Fagrbniuh#DE74%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
+hysteria2://78c2bad7-f5f3-41f2-88cc-81de9d05040b@mg2.mangshe.xyz:2056?insecure=1&sni=mg2.mangshe.xyz#%E7%BE%8E%E5%9B%BD2
+hysteria2://78c2bad7-f5f3-41f2-88cc-81de9d05040b@xjp1.mangshe.xyz:2055?insecure=1&sni=xjp1.mangshe.xyz#%E6%96%B0%E5%8A%A0%E5%9D%A11
+hysteria2://95D27EEF-B7AE-4076-BA39-40FDFA3D0F61@jp7.dexlos.com:13778?insecure=1#JP
+hysteria2://a084933d-0b41-4571-ae0c-7163b8c71ed1@de.eyucdn.xyz:2056?insecure=1&sni=de.eyucdn.xyz#DE
+hysteria2://a305ac08-d136-11ee-b6db-f23c91cfbbc9@ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com:443?sni=ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com#%F0%9F%87%AD%F0%9F%87%B0%20HK
+hysteria2://e7965e64-e001-4e8c-8273-39c61ff4a094@sg3.oomz.ru:30000?insecure=1&sni=bing.com#SG
+hysteria2://e7965e64-e001-4e8c-8273-39c61ff4a094@tw.oomz.ru:30000?insecure=1&sni=bing.com#TW
 hysteria2://71504eaf-29ac-4190-89d1-dd9ce2c9ee14@[2001:bc8:1640:50eb:dc00:ff:fe57:dd6f]:443?insecure=1&sni=Ab.ac&obfs=salamander&obfs-password=FnFgQIckcMRtKq7i#%E2%9B%843%40ConfigV2RayNG
 hysteria2://Telegram--%3E%40Ln2Ray@206.71.158.23:45000?insecure=1&sni=gavazn.55994421.xyz&obfs=salamander&obfs-password=Telegram-->@Ln2Ray#%F0%9F%93%9F22%40ConfigV2RayNG
 hysteria2://Telegram--%3E%40Ln2Ray@206.71.158.23:45000?insecure=0&sni=gavazn.55994421.xyz&obfs=salamander&obfs-password=Telegram-->@V2rayBaaz#telegram%40V2rayBaaz%E2%97%87%E2%83%9F%F0%9F%92%9C
