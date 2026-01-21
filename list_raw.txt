@@ -84,7 +84,6 @@ hysteria2://a305ac08-d136-11ee-b6db-f23c91cfbbc9@ffc60249-t53wg0-t92wi1-1qkeg.hk
 hysteria2://e7965e64-e001-4e8c-8273-39c61ff4a094@sg3.oomz.ru:30000?insecure=1&sni=bing.com#SG
 hysteria2://e7965e64-e001-4e8c-8273-39c61ff4a094@tw.oomz.ru:30000?insecure=1&sni=bing.com#TW
 hysteria2://71504eaf-29ac-4190-89d1-dd9ce2c9ee14@[2001:bc8:1640:50eb:dc00:ff:fe57:dd6f]:443?insecure=1&sni=Ab.ac&obfs=salamander&obfs-password=FnFgQIckcMRtKq7i#%E2%9B%843%40ConfigV2RayNG
-hysteria2://7b5cbc6a-90a1-4b6e-994e-4c198b85f80b@de2.oomz.ru:30000?insecure=1&sni=bing.com#telegram%20%C2%BB%20mainv%F0%9D%9F%AEray%C2%B3
 hysteria2://Telegram--%3E%40Ln2Ray@206.71.158.23:45000?insecure=1&sni=gavazn.55994421.xyz&obfs=salamander&obfs-password=Telegram-->@Ln2Ray#%F0%9F%93%9F22%40ConfigV2RayNG
 hysteria2://Telegram--%3E%40Ln2Ray@[2a14:3f87:f001:9::a]:443?insecure=1&sni=gavazn.55994421.xyz&obfs=salamander&obfs-password=Telegram-->@Ln2Ray#%E2%99%BE%EF%B8%8F17%40ConfigV2RayNG
 hysteria2://Telegram--%3E%40Ln2Ray@gavazn.lnmarketplace.net:45000?insecure=1&sni=gavazn.55994421.xyz&obfs=salamander&obfs-password=Telegram-->@Ln2Ray#%E2%9C%85%20%40ConfigV2RayNG%20%28%D9%86%D8%AA%20%D9%85%D9%84%DB%8C%29
@@ -151,6 +150,6 @@ vless://71031aa1-067e-425e-97f5-37875f838a10@51.250.42.73:8443?allowInsecure=0&s
 vless://4371ad14-b981-4699-bedf-83fb79bde3e6@217.12.40.76:443?allowInsecure=0&sni=sun9-38.userapi.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#RU_speednode_0017
 vless://0d93b787-b66b-4696-a036-a0f549764f69@91.224.74.91:443?allowInsecure=0&sni=kz.fasti.win&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#UA_speednode_0019
 vless://535235d3-5088-4746-8722-8720e820c043@pl.connect-iskra.cv:8443?allowInsecure=0&sni=powodzenia.xyz&flow=xtls-rprx-vision-udp443&fp=qq&security=tls#US_speednode_0020
-anytls://4ad48f61-bd38-432d-a33b-0fb21089e065@au.xn--99-c72c.top:18443?security=tls&type=tcp&allowInsecure=1&sni=gw.alicdn.com&udp=1&insecure=1#AU1%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
 anytls://4ad48f61-bd38-432d-a33b-0fb21089e065@us.xn--99-c72c.top:18444?security=tls&type=tcp&allowInsecure=1&sni=gw.alicdn.com&udp=1&insecure=1#US1%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
+anytls://4ad48f61-bd38-432d-a33b-0fb21089e065@au.xn--99-c72c.top:18443?security=tls&type=tcp&allowInsecure=1&sni=gw.alicdn.com&udp=1&insecure=1#AU1%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
 anytls://4ad48f61-bd38-432d-a33b-0fb21089e065@de.xn--99-c72c.top:18444?security=tls&type=tcp&allowInsecure=1&sni=gw.alicdn.com&udp=1&insecure=1#DE1%EF%BD%9C%E6%9C%BA%E6%88%BF%EF%BD%9C%E4%BD%8E%E9%A3%8E%E9%99%A9
