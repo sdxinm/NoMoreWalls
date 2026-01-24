@@ -4,6 +4,19 @@
 
 # 文件说明
 
+## 覆写规则集
+
+这些文件仅支持 Meta (mihomo) 内核！
+
+- [rules_online.yml](./rules_online.yml)：基于下方 Rule Providers 制成的统一规则集，可以用作代理工具的“覆写配置”。
+- [rules.yml](./rules.yml)：与上一个文件类似，但内置了所有规则，无需二次联网下载，可以用于订阅转换工具的“覆写配置”或支持“自动更新覆写配置”的代理工具的“覆写配置”。
+
+比如，你可以在 subs-check 配置中设置：
+
+```yaml
+mihomo-overwrite-url: "https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/rules.yml"
+```
+
 ## Proxy Providers 规则集
 
 - [nodes.meta.yml](./nodes.meta.yml)：适用于 Meta (mihomo) 内核的节点列表。
@@ -17,6 +30,7 @@
 - [proxy.yml](./proxy.yml)：需要走代理的域名列表。
 - [direct.yml](./direct.yml)：需要直连的域名列表。
 - [region.yml](./region.yml)：存在锁区的域名列表。
+- [malware.yml](./malware.yml)：包含病毒软件的域名列表。
 
 注意：广告拦截列表中的域名不会出现在需要走代理的域名列表中，因此即使您没有使用广告屏蔽规则，仍有一些广告会无法加载。
 

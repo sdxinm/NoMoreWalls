@@ -1441,6 +1441,25 @@ def main():
             with open("snippets/"+name+".yml", 'w', encoding="utf-8") as f:
                 yaml.dump({'payload': payload}, f, allow_unicode=True)
 
+        with open("snippets/example.yml", encoding="utf-8") as f:
+            template: Dict[str, Any] = yaml.full_load(f)
+        template = {
+            k: v for k,v in template.items()
+            if k in ('dns', 'proxy-groups', 'rule-providers', 'rules')
+        }
+        for group in template['proxy-groups']:
+            group: Dict[str, Any]
+            if 'use' in group:
+                del group['use']
+                group['include-all'] = True
+        with open("snippets/rules_online.yml", 'w', encoding="utf-8") as f:
+            yaml.dump(template, f, allow_unicode=True)
+
+        del template['rule-providers']
+        template['rules'] = conf['rules']
+        with open("snippets/rules.yml", 'w', encoding="utf-8") as f:
+            yaml.dump(template, f, allow_unicode=True)
+
     print("正在写出统计信息...")
     out = "序号,链接,节点数\n"
     for i, source in enumerate(sources_obj):

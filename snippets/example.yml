@@ -43,7 +43,6 @@ proxy-groups:
       - ♻ 自动选择
       - 🔰 延迟最低
       - ✅ 手动选择
-      - 🗺️ 选择地区
 
   - name: ♻ 自动选择
     type: fallback
@@ -74,6 +73,12 @@ proxy-groups:
       - DIRECT
       - 🚀 选择代理
       - REJECT
+
+  - name: 🚨 病毒网站
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
 
   - name: 🐟 漏网之鱼
     type: select
@@ -117,6 +122,13 @@ rule-providers:
     url: "https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/region.yml"
     interval: 86400 # 24h
     format: yaml
+  malware:
+    type: http
+    behavior: classical
+    path: ./rule_providers/malware.yml
+    url: "https://ghproxy.net/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/malware.yml"
+    interval: 86400 # 24h
+    format: yaml
 
 rules:
   # Google 相关规则必须加在最前面
@@ -131,6 +143,7 @@ rules:
   - GEOSITE,googlefcm,❓ 疑似国内
   # gvt1.com 不加任何规则，根据 GEOIP 判断是否走代理
 
+  - RULE-SET,malware,🚨 病毒网站
   - RULE-SET,adblock,⛔ 广告拦截
   - DOMAIN-SUFFIX,cn,DIRECT
   - DOMAIN-KEYWORD,-cn,DIRECT
