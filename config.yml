@@ -182,6 +182,7 @@ rules:
   - DOMAIN,search.kiwibrowser.org,🚨 病毒网站
   - DOMAIN-SUFFIX,kiwibrowser.org,⛔ 广告拦截
   - DOMAIN-KEYWORD,kiwisearchservices,🚨 病毒网站 # See https://github.com/Tobi823/ffupdater/issues/35
+  - DOMAIN-SUFFIX,xunlei.com,🚨 病毒网站
   # Adblock 补刀 (主程序解析白名单时会把要屏蔽的一起加白了)
   - DOMAIN,img-c.heytapimage.com,⛔ 广告拦截
   - DOMAIN,adsbdfs.heytapimage.com,⛔ 广告拦截
