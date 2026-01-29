@@ -1,20 +1,45 @@
 proxies:
-- name: KR9｜家宽｜高风险 (黑名单)
+- name: KR6｜家宽｜高风险 (黑名单)
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
   username: Og%3D%3D
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: KR_speednode_0014
-  port: 443
-  reality-opts:
-    public-key: SXqEq6ZholDwAcZRjV-E4IjCP_qUNeDcnzroQ4lwoA8
-  server: 2026.01.1.kr.aimirror.top
-  servername: www.icloud.com
+- name: KR22｜机房｜低风险
+  obfs: salamander
+  obfs-password: rVYx28ncsHBinunc
+  password: 937f8940-ad8a-409f-93c3-4d6249af628f
+  port: 42382
+  server: kr2.miyazono-kaori.com
+  skip-cert-verify: true
+  sni: kr2.miyazono-kaori.com
+  tls: false
+  type: hysteria2
+- name: KR23｜家宽｜非常安全
+  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
+  port: 59110
+  server: ptxl01.xsaym.com
+  skip-cert-verify: true
+  sni: www.volcengine.com
+  type: trojan
+- name: KR24｜家宽｜非常安全
+  password: 407b6b2e-59e5-4466-9911-08f6f1263bc9
+  port: 59099
+  server: ptxl01.xsaym.com
+  skip-cert-verify: true
+  sni: www.volcengine.com
+  type: trojan
+- name: KR_speednode_0010
+  network: ws
+  port: 12547
+  server: 220.85.144.155
+  servername: l.ayovo.netlib.re
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: eeaa07ca-2693-42f8-e544-a16521d8e922
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
