@@ -187,32 +187,12 @@ proxies:
     headers:
       Host: store.timimi.dpdns.org
     path: '%2F%3FBIA_TELEGRAM%2B(%40AZARBAYJAB1)%2BTM%2B(%40AZARBAYJAB1)%2BTM%2B(%40AZARBAYJAB1)%2BTM%2B(%40AZARBAYJAB1)%2BTM%2B(%40AZARBAYJAB1)%2BTM%2B(%40AZARBAYJAB1)'
-- name: 🇺🇸 美国|@ripaojiedian
-  password: 64a59181551b5773e390bd717a7b7c06
-  port: 1281
-  server: 160.16.106.99
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国2|@ripaojiedian
-  password: 64a59181551b5773e390bd717a7b7c06
-  port: 1281
-  server: 160.16.72.205
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 38780
-  server: 54.238.211.1
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: 64a59181551b5773e390bd717a7b7c06
   port: 4920
   server: 13.114.30.172
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
@@ -220,6 +200,7 @@ proxies:
   password: 64a59181551b5773e390bd717a7b7c06
   port: 4920
   server: 52.192.209.59
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
